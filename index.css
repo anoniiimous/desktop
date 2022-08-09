@@ -1,0 +1,86 @@
+body {
+    background: white;
+    margin: 0;
+}
+
+body[data-theme="dark"] {
+    background: black;
+    color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    body[data-theme="system"] {
+        background: black;
+        color: white;
+    }
+}
+
+@media screen {
+    .background-color-rgba-255-255-255-50pct {
+        background-color: rgba(255,255,255,0.5);
+    }
+}
+
+@media screen {
+    .border-radius-20px {
+        border-radius: 20px;
+    }
+}
+
+@media screen {
+    .bottom-0 {
+        bottom: 0;
+    }
+}
+
+@media screen {
+    .height-30px {
+        height: 30px;    
+    }
+    
+    .height-70px {
+        height: 70px;
+    }
+}
+
+@media screen {
+    .left-0 {
+        left: 0;
+    }
+}
+
+@media screen {
+    .margin-bottom-5px {
+        margin-bottom: 5px;
+    }
+
+    .margin-left-auto {
+        margin-left: auto;
+    }
+
+    .margin-right-auto {
+        margin-right: auto;
+    }
+}
+
+@media screen {
+    .position-fixed {
+        position: fixed;
+    }
+}
+
+@media screen {
+    .right-0 {
+        right: 0;
+    }
+}
+
+@media screen {
+    .width-100pct {
+        width: 100%;
+    }
+    
+    .width-100pct-minus-100px {
+        width: calc(100% - 100px);
+    }
+}
