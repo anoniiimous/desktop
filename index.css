@@ -47,21 +47,31 @@ row {
     display: inline-flex;
 }
 
-.justify-content-center {
-    justify-content: center;
+@media screen {
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .justify-content-space-between {
+        justify-content: space-between;
+    }
 }
 
 @media screen {
     .background-color-333 {
         background-color: #333;
     }
-    
+
     .background-color-ef {
         background-color: #ef;
     }
 
     .background-color-fff {
         background-color: #fff;
+    }
+
+    .background-color-ffc32c {
+        background-color: #ffc32c;
     }
 
     .background-color-rgba-255-255-255-50pct {
@@ -98,11 +108,19 @@ row {
     .border-radius-15pct {
         border-radius: 15%;
     }
+
+    .border-radius-22pct {
+        border-radius: 22%;
+    }
 }
 
 @media screen {
     .bottom-0 {
         bottom: 0;
+    }
+
+    .bottom-10px {
+        bottom: 10px;
     }
 }
 
@@ -153,6 +171,10 @@ row {
         margin-bottom: 5px;
     }
 
+    .margin-bottom-10px {
+        margin-bottom: 10px;
+    }
+
     .margin-bottom-20px {
         margin-bottom: 20px;
     }
@@ -172,13 +194,35 @@ row {
     .margin-right-auto {
         margin-right: auto;
     }
+
+    .margin-top-10px {
+        margin-top: 10px;
+    }
+
+    .margin-auto {
+        margin: auto;
+    }
+}
+
+@media screen {
+    .max-width-100pct-minus-100px {
+        max-width: calc(100% - 100px)
+    }
+
+    .max-width-100pct-minus-40px {
+        max-width: calc(100% - 40px)
+    }
 }
 
 @media screen {
     .padding-5px {
-        padding: 5px;    
+        padding: 5px;
     }
-    
+
+    .padding-20px {
+        padding: 20px;
+    }
+
     .padding-x-10px {
         padding-left: 10px;
         padding-right: 10px;
@@ -188,11 +232,11 @@ row {
         padding-bottom: 5px;
         padding-top: 5px;
     }
-    
+
     .padding-5px {
-        padding: 5px;    
+        padding: 5px;
     }
-    
+
     .position-fixed {
         position: fixed;
     }
@@ -211,10 +255,6 @@ row {
 }
 
 @media screen {
-    .width-50px {
-        width: 50px;
-    }
-
     .width-75pct {
         width: 75%;
     }
@@ -227,7 +267,19 @@ row {
         width: 100%;
     }
 
+    .width-100pct-minus-40px {
+        width: calc(100% - 40px)
+    }
+
     .width-100pct-minus-100px {
         width: calc(100% - 100px);
+    }
+
+    .width-50px {
+        width: 50px;
+    }
+
+    .width-300px {
+        width: 300px;
     }
 }
