@@ -39,6 +39,10 @@ row {
     align-items: center;
 }
 
+.backdrop-filter-blur-10px {
+    backdrop-filter: blur(10px);
+}
+
 .display-inline-flex {
     display: inline-flex;
 }
@@ -135,6 +139,14 @@ row {
         margin-bottom: 20px;
     }
 
+    .margin-left-5px {
+        margin-left: 5px;
+    }
+
+    .margin-left-10px {
+        margin-left: 10px;
+    }
+
     .margin-left-auto {
         margin-left: auto;
     }
@@ -145,6 +157,20 @@ row {
 }
 
 @media screen {
+    .padding-5px {
+        padding: 5px;    
+    }
+    
+    .padding-x-10px {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .padding-y-5px {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    
     .padding-5px {
         padding: 5px;    
     }
