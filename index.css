@@ -52,6 +52,10 @@ row {
 }
 
 @media screen {
+    .background-color-333 {
+        background-color: #333;
+    }
+    
     .background-color-ef {
         background-color: #ef;
     }
@@ -103,6 +107,12 @@ row {
 }
 
 @media screen {
+    .filter-invert-1 {
+        filter: invert(1);
+    }
+}
+
+@media screen {
     .height-30px {
         height: 30px;
     }
@@ -113,6 +123,14 @@ row {
 
     .height-70px {
         height: 70px;
+    }
+
+    .height-75pct {
+        height: 75%;
+    }
+
+    .height-90pct {
+        height: 90%;
     }
 
     .height-100pct {
@@ -195,6 +213,14 @@ row {
 @media screen {
     .width-50px {
         width: 50px;
+    }
+
+    .width-75pct {
+        width: 75%;
+    }
+
+    .width-90pct {
+        width: 90%;
     }
 
     .width-100pct {
