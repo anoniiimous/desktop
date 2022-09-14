@@ -261,7 +261,7 @@ window.mvc.v = view = function(route) {
                             html.find('iframe').src = window.location.protocol + '//' + global.domains.domain + '.github.' + global.domains.tld + '/' + app;
                         }
 
-                        desktop.insertAdjacentHTML('beforeend', html.outerHTML)
+                        desktop.insertAdjacentHTML('afterend', html.outerHTML)
                     }
                 }
 
