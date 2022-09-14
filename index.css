@@ -16,6 +16,10 @@
             color: white;
         }
     }
+
+    main {
+        z-index: 123;
+    }
 }
 
 block, card, box {
@@ -26,13 +30,17 @@ block, card, box {
 column {
     display: flex;
     display: -webkit-flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 row {
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
+}
+
+iframe {
+    border: 0;
 }
 
 .align-items-center {
@@ -43,8 +51,14 @@ row {
     backdrop-filter: blur(10px);
 }
 
-.display-inline-flex {
-    display: inline-flex;
+@media screen {
+    .display-inline-flex {
+        display: inline-flex;
+    }
+
+    .display-none {
+        display: none;
+    }
 }
 
 @media screen {
@@ -58,12 +72,24 @@ row {
 }
 
 @media screen {
+    .background-color-026087 {
+        background-color: #026087;
+    }
+
     .background-color-333 {
         background-color: #333;
     }
 
+    .background-color-acaeb0 {
+        background-color: #acaeb0;
+    }
+
     .background-color-ef {
         background-color: #ef;
+    }
+
+    .background-color-f6f7f6 {
+        background-color: #f6f7f6;
     }
 
     .background-color-fff {
@@ -125,8 +151,24 @@ row {
 }
 
 @media screen {
+    .display-flex {
+        display: flex;
+    }
+}
+
+@media screen {
     .filter-invert-1 {
         filter: invert(1);
+    }
+}
+
+@media screen {
+    .flex-1 {
+        flex: 1;
+    }
+
+    .flex-direction-column {
+        flex-direction: column;
     }
 }
 
@@ -199,6 +241,10 @@ row {
         margin-top: 10px;
     }
 
+    .margin-top-30px {
+        margin-top: 30px;
+    }
+
     .margin-auto {
         margin: auto;
     }
@@ -255,6 +301,12 @@ row {
 }
 
 @media screen {
+    .top-0 {
+        top: 0;
+    }
+}
+
+@media screen {
     .width-75pct {
         width: 75%;
     }
@@ -281,5 +333,27 @@ row {
 
     .width-300px {
         width: 300px;
+    }
+
+    .width-375px {
+        width: 375px;
+    }
+}
+
+@media screen {
+    .z-index-0 {
+        z-index: 0;
+    }
+
+    .z-index-1 {
+        z-index: 1;
+    }
+
+    .z-index-5 {
+        z-index: 5;
+    }
+    
+    .z-index-9 {
+        z-index: 123456789;
     }
 }
